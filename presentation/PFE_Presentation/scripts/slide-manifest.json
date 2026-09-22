@@ -1,0 +1,212 @@
+[
+  {
+    "number": 1,
+    "title": "Design and Implementation of a Debugger with Instruction Trace Capabilities.",
+    "section": "Context and Problem Statement",
+    "seconds": 20,
+    "clicks": 0
+  },
+  {
+    "number": 2,
+    "title": "Host organization and team",
+    "section": "Context and Problem Statement",
+    "seconds": 45,
+    "clicks": 2
+  },
+  {
+    "number": 3,
+    "title": "Problem context: state and execution history",
+    "section": "Context and Problem Statement",
+    "seconds": 65,
+    "clicks": 2
+  },
+  {
+    "number": 4,
+    "title": "Problem statement and requirements",
+    "section": "Context and Problem Statement",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 5,
+    "title": "Existing software foundations",
+    "section": "Objectives and Technical Approach",
+    "seconds": 45,
+    "clicks": 2
+  },
+  {
+    "number": 6,
+    "title": "Work carried out",
+    "section": "Objectives and Technical Approach",
+    "seconds": 45,
+    "clicks": 2
+  },
+  {
+    "number": 7,
+    "title": "Instruction trace: a compact execution record",
+    "section": "Objectives and Technical Approach",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 8,
+    "title": "Device-independent capture architecture",
+    "section": "Objectives and Technical Approach",
+    "seconds": 40,
+    "clicks": 2
+  },
+  {
+    "number": 9,
+    "title": "Debugger architecture and implementation",
+    "section": "Design and Implementation",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 10,
+    "title": "Trace-processing pipeline",
+    "section": "Design and Implementation",
+    "seconds": 40,
+    "clicks": 2
+  },
+  {
+    "number": 11,
+    "title": "Capture lifecycle",
+    "section": "Design and Implementation",
+    "seconds": 55,
+    "clicks": 2
+  },
+  {
+    "number": 12,
+    "title": "Decoding: bytes, packets and elements",
+    "section": "Design and Implementation",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 13,
+    "title": "Worked example: ETM atoms and execution",
+    "section": "Design and Implementation",
+    "seconds": 65,
+    "clicks": 4
+  },
+  {
+    "number": 14,
+    "title": "Instruction reconstruction and source correlation",
+    "section": "Design and Implementation",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 15,
+    "title": "Trace continuity and offline analysis",
+    "section": "Design and Implementation",
+    "seconds": 55,
+    "clicks": 2
+  },
+  {
+    "number": 16,
+    "title": "Implemented trace views in VS Code",
+    "section": "Design and Implementation",
+    "seconds": 55,
+    "clicks": 2
+  },
+  {
+    "number": 17,
+    "title": "Case study: a corrupted function pointer",
+    "section": "Demonstration",
+    "seconds": 30,
+    "clicks": 2
+  },
+  {
+    "number": 18,
+    "title": "Trace-assisted fault investigation",
+    "section": "Demonstration",
+    "seconds": 90,
+    "clicks": 2
+  },
+  {
+    "number": 19,
+    "title": "Validation setup and method",
+    "section": "Validation and Results",
+    "seconds": 50,
+    "clicks": 2
+  },
+  {
+    "number": 20,
+    "title": "Execution-order validation",
+    "section": "Validation and Results",
+    "seconds": 60,
+    "clicks": 2
+  },
+  {
+    "number": 21,
+    "title": "Capture capacity on the validation platform",
+    "section": "Validation and Results",
+    "seconds": 70,
+    "clicks": 1
+  },
+  {
+    "number": 22,
+    "title": "Limitations and further work",
+    "section": "Limitations and Conclusion",
+    "seconds": 60,
+    "clicks": 2
+  },
+  {
+    "number": 23,
+    "title": "Contributions and conclusion",
+    "section": "Limitations and Conclusion",
+    "seconds": 60,
+    "clicks": 2
+  },
+  {
+    "number": 24,
+    "title": "Detailed Tool Comparison",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 25,
+    "title": "CoreSight Configuration and Capture Lifecycle",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 26,
+    "title": "ETM reconstruction: supplementary detail",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 27,
+    "title": "Engine Concurrency and DAP Extensions",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 28,
+    "title": "Validation Methods and Coverage",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 29,
+    "title": "Timing Reconstruction Results",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  },
+  {
+    "number": 30,
+    "title": "Fault Investigation and Cache Visibility",
+    "section": "Backup",
+    "seconds": 0,
+    "clicks": 0
+  }
+]
