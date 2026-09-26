@@ -1,6 +1,9 @@
 # Dependency directories (pnpm uses a local virtual store)
 node_modules/
 .pnpm-store/
+.playwright-cli/
+.vite-cache/
+dist/
 
 # Log files
 logs
