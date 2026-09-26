@@ -1,16 +1,19 @@
 {
-  "name": "pfe-presentation",
-  "type": "module",
+  "name": "youssef-hasnaoui-pfe-defense",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "dev": "slidev slides.md",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
   },
   "dependencies": {
-    "@slidev/cli": "^53.0.0",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.33"
+    "@iconify-json/carbon": "1.2.27",
+    "@iconify-json/ph": "1.2.2",
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "0.25.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.0"
   }
 }
