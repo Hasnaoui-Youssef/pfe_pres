@@ -700,13 +700,16 @@ html, body, #app { background:#fff!important; color:var(--navy); }
 .embed-openocd-slide .openocd-mode-note { margin:2px 0 8px; color:#263d56; text-align:center; font-size:12px; line-height:1.35; }
 .embed-openocd-slide ul { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:12px 0 0; padding:0; list-style:none; }
 .embed-openocd-slide li { padding:10px 12px; border-top:2px solid var(--yellow); background:#f1f5f8; color:#263d56; font-size:11px; line-height:1.4; }
-.context-buildup { flex:1; width:100%; display:grid; grid-template-columns:1fr; align-content:center; gap:14px; max-width:1000px; margin:0 auto; }
+.context-slide-layout { flex:1; min-height:0; width:min(1120px,100%); margin:0 auto; display:grid; grid-template-columns:minmax(0,1.2fr) minmax(300px,.85fr); align-items:center; gap:26px; }
+.context-buildup { width:100%; display:grid; grid-template-columns:1fr; align-content:center; gap:13px; margin:0; }
 .context-buildup>div { display:grid; grid-template-columns:48px 1fr; align-items:center; gap:16px; padding:18px 20px; background:#f4f7fa; border-left:4px solid #3cb4e6; }
 .context-buildup>div:nth-child(2) { border-left-color:#e6007e; }
 .context-buildup>div:nth-child(3) { border-left-color:#ffd200; }
 .context-buildup>div>span { display:grid; place-items:center; width:38px; height:38px; border-radius:50%; background:#03234b; color:#ffd200; font:700 12px 'JetBrains Mono'; }
 .context-buildup p { margin:0; color:#304962!important; font-size:17px; line-height:1.5!important; }
 .context-buildup b { color:#03234b; }
+.context-tunis-photo { display:block; width:100%; height:390px; object-fit:cover; border:1px solid #d6dee7; box-shadow:12px 12px 0 rgba(255,210,0,.28); }
+@media (max-width: 900px) { .context-slide-layout { grid-template-columns:1fr; gap:16px; }.context-tunis-photo { height:250px; } }
 .state-art-table { width:100%; margin:auto; border-collapse:collapse; color:#263d56; font-size:15px; }
 .state-art-table th,.state-art-table td { padding:14px 18px; border-bottom:1px solid #d6dee7; text-align:left; line-height:1.45; }
 .state-art-table thead th { background:#03234b; color:#fff; font-size:12px; letter-spacing:.05em; }

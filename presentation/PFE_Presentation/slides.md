@@ -66,48 +66,15 @@ section: "01 / PROJECT CONTEXT"
 layout: default
 ---
 
-<div class="section-kicker">PROJECT CONTEXT · HOST ORGANIZATION</div>
-
-
-<div class="stat-grid">
-  <div class="stat-card stat-feature"><span class="stat-icon"><carbon-currency-dollar /></span><strong>$11.8B</strong><label>FY2025 revenue</label></div>
-  <div class="stat-card"><span class="stat-icon"><carbon-group /></span><strong>50,000+</strong><label>employees worldwide</label></div>
-  <div class="stat-card"><span class="stat-icon"><carbon-chemistry /></span><strong>9,500+</strong><label>people in R&amp;D</label></div>
-  <div class="stat-card"><span class="stat-icon"><carbon-earth /></span><strong>200,000+</strong><label>customers globally</label></div>
-  <div class="stat-card"><span class="stat-icon"><carbon-industry /></span><strong>14</strong><label>main manufacturing sites</label></div>
-</div>
-
-<div class="market-row"><span>WHERE ST’S TECHNOLOGIES GO</span><b>Automotive</b><b>Industrial</b><b>Personal electronics</b></div>
-
----
-layout: default
----
-
-<div class="section-kicker">PROJECT CONTEXT · ST TUNIS</div>
-
-
-<div class="two-col tunis-layout">
-  <div>
-    <p class="large-copy">The Tunis site is an R&amp;D location where software, tools and product support meet.</p>
-    <ul class="clean-list">
-      <li><i class="list-dot cyan"></i><span><b>Embedded software</b></span></li>
-      <li><i class="list-dot yellow"></i><span><b>Tools</b></span></li>
-      <li class="internship-team"><i class="list-dot pink"></i><span><b>Application &amp; Product Support Team</b><small>Customer technical support, documentation maintenance and support for new products during development.</small><em>MY INTERNSHIP TEAM</em></span></li>
-    </ul>
-  </div>
-  <img class="tunis-photo" src="/assets/stmicroelectronics-tunis-site.jpg" />
-</div>
-
----
-layout: default
----
-
 <div class="section-kicker">PROJECT CONTEXT</div>
 
-<div class="context-buildup">
-  <div><span>01</span><p>This project was hosted within <b>STMicroelectronics</b>.</p></div>
-  <div><span>02</span><p>It was carried out within the <b>Application &amp; Product Support team</b>, which provides technical support to customers.</p></div>
-  <div><span>03</span><p>The team needs the utmost visibility into microcontroller behavior, yet instruction trace is rarely available in its debugging workflow. <b>That gap motivates this project.</b></p></div>
+<div class="context-slide-layout">
+  <div class="context-buildup">
+    <div><span>01</span><p>This project was hosted within <b>STMicroelectronics</b>.</p></div>
+    <div><span>02</span><p>It was carried out within the <b>Application &amp; Product Support team</b>, which provides technical support to customers.</p></div>
+    <div><span>03</span><p>The team needs the utmost visibility into microcontroller behavior, yet instruction trace is rarely available in its debugging workflow. <b>That gap motivates this project.</b></p></div>
+  </div>
+  <img class="context-tunis-photo" src="/assets/stmicroelectronics-tunis-site.jpg" alt="STMicroelectronics Tunis site" />
 </div>
 
 ---
